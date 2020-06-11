@@ -1,4 +1,4 @@
-import Bakery from '../js/classes/bakery.mjs';
+import Bakery from './classes/bakery.mjs';
 console.log(Bakery)
 
 import { store } from './dom/store.mjs';
