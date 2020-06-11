@@ -1,0 +1,20 @@
+/* animation bigCookie */
+
+.plusOne {
+    position: absolute;
+    animation-name: plusOne;
+    animation-duration: 15s;
+}
+
+@keyframes plusOne {
+    20% {
+        opacity: 0.5;
+    }
+    50% {
+        opacity: 0.2;
+    }
+    100% {
+        opacity: 0;
+        top: -200px;
+    }
+}

@@ -1,0 +1,11 @@
+#game {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.separator {
+    background-image: url(/assets/images/panel-vertical.png);
+    height: 100vh;
+    width: 16px;
+}
